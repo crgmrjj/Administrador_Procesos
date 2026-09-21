@@ -4,10 +4,8 @@ using System.Diagnostics;
 
 namespace AdministradorProcesos
 {
-    // Módulo de Ariel: ver el detalle de un proceso y cambiar su prioridad.
     public class DetalleProcesos
     {
-        // Punto de entrada que se llama desde la opción 4 del menú.
         public static void Ejecutar()
         {
             Console.Write("\nIngrese el PID del proceso: ");
@@ -30,7 +28,6 @@ namespace AdministradorProcesos
                 return;
             }
 
-            // using libera el identificador nativo del proceso al terminar.
             using (proceso)
             {
                 MostrarDetalle(proceso);
@@ -99,7 +96,6 @@ namespace AdministradorProcesos
                     return;
             }
 
-            // RealTime se omite a propósito: puede congelar el sistema.
             try
             {
                 p.PriorityClass = nueva;
