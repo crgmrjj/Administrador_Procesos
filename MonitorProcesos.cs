@@ -10,6 +10,7 @@ namespace AdministradorProcesos
     /// Autor: Gian Marco Escobar Pérez
     /// Rama: feature/modulo-monitoreo
     /// Curso: Sistemas Operativos - UMG
+    /// Carné: 0901-24-1426
     /// </summary>
     public static class MonitorProcesos
     {
