@@ -14,10 +14,10 @@ namespace AdministradorProcesos
                 Console.WriteLine("==========================================================");
                 Console.WriteLine("           ADMINISTRADOR DE PROCESOS - C#                 ");
                 Console.WriteLine("==========================================================");
-                Console.WriteLine("1. Listar procesos activos (Gian)");
-                Console.WriteLine("2. Iniciar un nuevo proceso (Eduardo)");
-                Console.WriteLine("3. Terminar / Matar un proceso por PID (Eduardo)");
-                Console.WriteLine("4. Ver detalle o cambiar prioridad (Ariel - En desarrollo)");
+                Console.WriteLine("1. Listar procesos activos");
+                Console.WriteLine("2. Iniciar un nuevo proceso");
+                Console.WriteLine("3. Terminar / Matar un proceso por PID");
+                Console.WriteLine("4. Ver detalle o cambiar prioridad");
                 Console.WriteLine("5. Salir");
                 Console.WriteLine("==========================================================");
                 Console.Write("Seleccione una opción: ");
@@ -55,7 +55,7 @@ namespace AdministradorProcesos
 
                     case "4":
                         Console.Clear();
-                        Console.WriteLine("Módulo de Ariel en desarrollo (prioridades y detalles).");
+                        DetalleProcesos.Ejecutar();
                         break;
 
                     case "5":
